@@ -2,26 +2,20 @@ Steps to install Virtual Environment:
 
 1) Open Command Prompt and navigate to the directory you choose to set up the virtual environment in
 2) Command to install virtual Environment
-
-py -m pip install --user virtualenv     
-
 3) Command to Create a new virtual Environment
-
-py -m venv env
-
 4)Command to Activate Virtual Environment
-
-.\env\Scripts\activate ------ activate
-
 5) Install required packages which will be used further. 
 Eg: requets,pandas,numpy.
-
-pip install requests[security]
-
 6) Install Jupyter Notebook
-
-pip install jupyter notebook
-
 7)Open Jupyter Notebook Command
 
+List of Commands:
+
+py -m pip install --user virtualenv
+py -m venv env
+.\env\Scripts\activate
+pip install requests[security]
+pip install jupyter notebook
+pip install pandas
+pip install matplotlib
 jupyter notebook
