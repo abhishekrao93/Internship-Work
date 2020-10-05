@@ -1,8 +1,8 @@
-Please find the link below to the Colab Notebook for the Quality rating Bar Chart.
+#Please find the link below to the Colab Notebook for the Quality rating Bar Chart.
 
 https://colab.research.google.com/drive/1X8MrzVSodmpNxzYhNqsz7-ytHvBANRkf?usp=sharing
 
-Steps to load the Dataset in Colab:
+##Steps to load the Dataset in Colab:
 
 1) In Your kaggle account, go to the API section and create a new API Token and download the kaggle.json file
 2) Upload the kaggle File in a folder
@@ -12,8 +12,9 @@ Steps to load the Dataset in Colab:
 6) unzipping the zip files and deleting the zip files using the below command 
 7) Ready to start working on the Task. 
 
-# Commands to implement the above:
+## Commands to implement the above:
 
+'
 from google.colab import drive
 drive.mount('/content/gdrive')
 import os
@@ -21,3 +22,4 @@ os.environ['KAGGLE_CONFIG_DIR'] = "/content/gdrive/My Drive/Kaggle"
 %cd /content/gdrive/My Drive/Kaggle
 !kaggle datasets download -d "API Link"
 !unzip \*.zip  && rm *.zip
+'
